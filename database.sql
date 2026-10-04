@@ -1,8 +1,4 @@
-/*
-  EmployeeDB - tables + stored procedures expected by EmployeeManagement.API
-  Safe to re-run: creates the DB/tables only if missing, adds missing columns,
-  and CREATE OR ALTERs every procedure.
-*/
+
 IF DB_ID('EmployeeDB') IS NULL CREATE DATABASE EmployeeDB;
 GO
 USE EmployeeDB;
